@@ -47,7 +47,7 @@
 }
 
 .post-content{
-  width: 70%;
+  width: 90%;
   height:calc(60% * 230px);
   display:block;
   white-space:nowrap;
@@ -64,6 +64,14 @@
   height:40px;
   position:absolute;
   top:80%;
+}
+
+.votes-mod{
+  width:45%;
+}
+
+.votes-btn{
+  width:70%;
 }
 
 .votes-btn-space{

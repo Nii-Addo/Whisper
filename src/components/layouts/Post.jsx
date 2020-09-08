@@ -27,13 +27,13 @@ const Post = ( props ) => {
 
     <div className="post-reactions d-flex flex-wrap">
       <div className="votes-mod votes-btn-space">
-        <button className="btn btn-primary mr-2" onClick={()=>{setUpvote(upvote=>upvote=upvote+1)}}>Up Vote</button>
+        <button className="btn btn-primary mr-2 votes-btn " onClick={()=>{setUpvote(upvote=>upvote=upvote+1)}}>Up Vote</button>
         <span>{upvote}</span>
       </div>
       <div className="ghost">
       </div>
       <div className="votes-mod">
-        <button className="btn btn-primary mr-2" onClick={()=>{setDownvote(downvote=>downvote=downvote+1)}}>Down Vote</button>
+        <button className="btn btn-primary mr-2 votes-btn" onClick={()=>{setDownvote(downvote=>downvote=downvote+1)}}>Down Vote</button>
         <span>{downvote}</span>
       </div>
     </div>
