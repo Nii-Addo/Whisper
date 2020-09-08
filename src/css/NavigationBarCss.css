@@ -1,0 +1,38 @@
+.navi{
+  width: 50%;
+  padding-top: 10px;
+  top:4%;
+  left:25%;
+  position: absolute;
+}
+.navi a{
+  margin-left: 8px;
+  width: 60px;
+  text-decoration: none;
+  font-size:1.2em;
+  margin-right: 10px;
+  color: white;
+}
+
+.nav-brand{
+  margin-left: 20px;
+}
+
+.nav-brand a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.logout-btn{
+  width:100px;
+  height: 40px;
+  color: white;
+}
+
+.logout-space{
+  position: absolute;
+  top:4%;
+  right:4%;
+}
